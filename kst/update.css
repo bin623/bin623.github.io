@@ -1,0 +1,38 @@
+/* 定义在手机和电脑上都适用的样式 */
+.my-class {
+  font-size: 16px;
+}
+
+/* 定义在手机上的适用样式 */
+@media (max-width: 767px) {
+  .my-class {
+    font-size: 14px;
+  }
+}
+
+/* 定义在电脑上的适用样式 */
+@media (min-width: 768px) {
+  .my-class {
+    font-size: 18px;
+  }
+}
+
+/* 设置字体大小为相对单位 */
+h1 {
+  font-size: 2em; /* 相对于父元素 */
+}
+
+p {
+  font-size: 1rem; /* 相对于 HTML 元素的字体大小 */
+}
+
+/* 设置长度为百分比 */
+.container {
+  width: 90%; /* 相对于父元素 */
+  margin: 0 auto; /* 居中 */
+}
+
+img {
+  max-width: 100%; /* 图片宽度最大为父元素宽度 */
+  height: auto; /* 高度自适应 */
+}
