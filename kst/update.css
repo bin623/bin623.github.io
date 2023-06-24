@@ -6,7 +6,7 @@
 /* 定义在手机上的适用样式 */
 @media (max-width: 767px) {
   .my-class {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 
@@ -19,7 +19,7 @@
 
 /* 设置字体大小为相对单位 */
 h1 {
-  font-size: 2em; /* 相对于父元素 */
+  font-size: 1.5em; /* 相对于父元素 */
 }
 
 p {
