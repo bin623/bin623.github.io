@@ -15,7 +15,7 @@ function update(appV,latestV,appN,UInfo){
     alert("发现新版"+appN+"\n版本号："+latestV+"\n更新内容:"+UInfo);
   } 
   else{
-    alert("你使用的是最新版"+appN+"\n版本号："+latestV);
+    alert("你使用的是最新版"+appN+"\n版本号："+appV);
   }
 }
 
